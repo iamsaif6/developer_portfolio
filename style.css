@@ -8,3 +8,58 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* Reused CSS */
+
+.primary_btn {
+  padding: 18px 36px;
+  background-color: #fd6e0a;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Header */
+
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Nav Menu CSS */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav_logo {
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+}
+
+.nav_logo span {
+  color: #fd6e0a;
+}
