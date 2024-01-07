@@ -229,3 +229,55 @@ nav a:hover {
   font-size: 20px;
   font-weight: 700;
 }
+
+/* Resume Section */
+
+.resume {
+  padding: 130px 0;
+}
+
+.resume-container {
+  display: flex;
+  margin-top: 110px;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.resume-item h4 {
+  font-size: 25px;
+  color: #474747;
+  font-weight: 700;
+  margin: 0;
+}
+
+.resume-item h5 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+}
+
+hr {
+  margin: 30px 0;
+  height: 1px;
+  color: #d1d1d1;
+}
+
+.resume-item p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.resume-btn-wrap {
+  text-align: center;
+  margin: 50px 0 110px 0;
+}
