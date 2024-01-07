@@ -75,8 +75,8 @@ a {
 header {
   background-image: url('images/header_bg.png'), url('images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right, bottom left 20px;
-  background-size: 700px, contain;
+  background-position: bottom right, bottom left 30px;
+  background-size: 750px, 400;
   background-color: #fff8f3;
 }
 
@@ -95,8 +95,9 @@ header {
 }
 
 .header_img {
-  max-width: 380px;
+  max-width: 580px;
   align-self: flex-end;
+  margin-right: -100px;
 }
 
 .header_title {
@@ -279,5 +280,65 @@ hr {
 
 .resume-btn-wrap {
   text-align: center;
-  margin: 50px 0 110px 0;
+  margin: 50px 0 0px 0;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+
+.footer-wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 120px;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-right {
+  width: 50%;
+}
+
+.footer-left {
+  width: 50%;
+}
+.footer-wrap .section-title {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+footer p {
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+footer input:not([type='submit']),
+footer textarea {
+  display: block;
+  width: 100%;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 18px 30px;
+  border: 0px solid;
+  margin-bottom: 24px;
+  outline: none;
+  resize: none;
+}
+
+.footer-link {
+  margin-top: 30px;
+}
+
+.footer-link a {
+  margin-right: 24px;
 }
