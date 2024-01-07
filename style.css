@@ -11,6 +11,15 @@ body {
 
 /* Reused CSS */
 
+.main-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
 .primary_btn {
   padding: 18px 36px;
   background-color: #fd6e0a;
@@ -19,6 +28,45 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
+  border: 1px solid transparent;
+  transition: 0.1s;
+}
+
+.primary_btn:hover {
+  background-color: transparent;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  cursor: pointer;
+}
+
+.primary_btn.white {
+  background-color: transparent;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
+}
+
+.primary_btn.white:hover {
+  background-color: #fd6e0a;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0;
+  font-weight: 400;
 }
 
 /* Header */
@@ -30,6 +78,10 @@ header {
   background-size: 700px;
   background-color: #fff8f3;
 }
+
+.header_texbox {
+  max-width: 50%;
+}
 .header_container {
   margin: 0 auto;
   max-width: 1140px;
@@ -38,6 +90,7 @@ header {
 .header_info {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header_img {
@@ -54,6 +107,14 @@ header {
   color: #181818;
   font-size: 700;
   font-size: 85px;
+}
+
+.header_description {
+  color: #757575;
+  font-size: 18px;
+  margin: 20px 0 50px 0;
+  line-height: 30px;
+  max-width: 600px;
 }
 
 /* Nav Menu CSS */
@@ -80,6 +141,11 @@ nav a {
   color: #474747;
   font-size: 20px;
   font-weight: 400;
+  transition: 0.01;
+}
+
+nav a:hover {
+  color: #fd6e0a;
 }
 
 .nav_logo {
@@ -90,4 +156,33 @@ nav a {
 
 .nav_logo span {
   color: #fd6e0a;
+}
+
+/* About Section */
+
+.about-section {
+  text-align: center;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin: 130px 0;
+}
+
+.about-info {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-name {
+  font-size: 20px;
+  color: #757575;
+  line-height: 30px;
+}
+
+.about-item h5 {
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
 }
