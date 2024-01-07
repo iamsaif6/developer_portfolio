@@ -72,10 +72,10 @@ a {
 /* Header */
 
 header {
-  background-image: url('images/header_bg.png');
+  background-image: url('images/header_bg.png'), url('images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 700px;
+  background-position: bottom right, bottom left 20px;
+  background-size: 700px, contain;
   background-color: #fff8f3;
 }
 
@@ -185,4 +185,45 @@ nav a:hover {
   color: #474747;
   font-weight: 700;
   font-size: 20px;
+}
+
+/* Skill Section */
+.skill {
+  text-align: center;
+}
+
+.skill > .section-description {
+  max-width: 800px;
+  margin: 30px auto 50px auto;
+}
+
+.skill-items {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.skill-items img {
+  width: 44px;
+  height: auto;
+}
+
+.skill-item {
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 33px;
+}
+
+.skill-item .section-description {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.skill-name {
+  margin: 20px 0 30px 0;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
 }
